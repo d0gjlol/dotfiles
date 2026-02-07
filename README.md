@@ -12,7 +12,6 @@ my personal arch linux rice using:
 - `config/kitty/` → kitty config
 - `config/fish/` → fish shell config
 - `install.sh` → symlink installer with backups
-- `uninstall.sh` → removes symlinks
 
 ## 🚀 install
 
