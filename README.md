@@ -25,7 +25,7 @@ chmod +x install.sh
 ## 📦 needed packages
 
 ```
-sudo pacman -S swww waybar kitty hyprland wofi
+sudo pacman -S --needed git swww waybar kitty hyprland wofi
 ```
 
 ## 🖥️ default desktop
