@@ -31,3 +31,6 @@ sudo pacman -S swww waybar kitty hyprland wofi
 ## 🖥️ default desktop
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1ddfaec6-be6e-47e4-9c35-9357b0bd2ecf" />
 
+## 🎨 wallpaper
+https://external-preview.redd.it/LqJxJWL0fLswSJ29rluMQlBXPntbaPT9B1L1Eb58AjM.png?format=pjpg&auto=webp&s=e0a77171386cf841d3ff57405399094e35208129
+
