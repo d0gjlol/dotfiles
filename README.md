@@ -15,7 +15,7 @@ my personal arch linux rice using:
 
 ## 🚀 install
 
-before the installation, please install and change your shell to fish
+before the installation, please install and change your shell to fish because these dotfiles use fish
 ```
 sudo pacman -S fish
 chsh -s /usr/bin/fish
