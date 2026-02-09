@@ -14,19 +14,17 @@ my personal arch linux rice using:
 - `install.sh` → symlink installer with backups
 
 ## 🚀 install
-
-before the installation, please install and change your shell to fish because these dotfiles use fish
-```
-sudo pacman -S fish
-chsh -s /usr/bin/fish
-```
-then just run 
-
 ```bash
 git clone https://github.com/larptekk/dotfiles
 cd dotfiles
 chmod +x install.sh
 ./install.sh
+```
+
+## uninstall
+```bash
+cd dotfiles
+./uninstall.sh
 ```
 
 ## 📦 needed packages
