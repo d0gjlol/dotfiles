@@ -21,7 +21,7 @@ sudo pacman -S --needed pipewire git fish swww waybar kitty hyprland wofi bluema
 
 ## 🚀 install
 ```bash
-git clone https://github.com/larptekk/dotfiles
+git clone https://github.com/larpmaxxer/dotfiles
 cd dotfiles
 chmod +x install.sh
 ./install.sh
