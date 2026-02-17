@@ -1,12 +1,8 @@
-[settings]
-font=JetBrains Mono Regular 12
-hide-scrollbar=true
-show-categories=false
-icon-size=48
-history-size=10
-max-width=500
-max-height=400
-always-show-text=true
-theme=dark
-border-radius=12
-icon-theme=Papirus  # This ensures the use of Papirus icons
+[wofi]
+# basic appearance
+theme=~/.config/wofi/feel.css
+show-icons=true
+columns=1
+rows=10
+font=monospace 12
+terminal=false
