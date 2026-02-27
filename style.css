@@ -1,47 +1,64 @@
 * {
-  font-family: monospace;
-  font-size: 13px;
-  color: #ccc;
-  border: none;
-  border-radius: 0;
-  padding: 0;
-  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  color: #d9d9d9;
 }
 
 window#waybar {
-  background-color: rgba(20, 20, 20, 0.85);
-  border-radius: 12px;
+  background-color: #0d0d0d;
+  border-right: 1px solid #2e2e2e;
+}
+
+#image-arch {
+  padding: 8px 0;
+  margin-bottom: 4px;
 }
 
 #workspaces button {
-  padding: 0 8px;
-  color: #666;
+  color: #737373;
   background: transparent;
-  border-radius: 8px;
-  margin: 4px 2px;
+  padding: 6px 0;
+  border-radius: 6px;
+  min-width: 36px;
+  min-height: 36px;
 }
 
 #workspaces button.active {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  background-color: #1f1f1f;
 }
 
 #workspaces button:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #333333;
 }
 
-#clock,
-#cpu,
-#memory,
-#pulseaudio,
-#network {
-  padding: 0 10px;
+#cpu, #memory, #disk,
+#network, #pulseaudio,
+#clock, #custom-power {
+  padding: 6px 0;
+  border-radius: 6px;
+  min-width: 36px;
+  min-height: 36px;
+  background: transparent;
 }
 
-#tray {
-  padding: 0 8px;
+#cpu:hover, #memory:hover, #disk:hover,
+#network:hover, #pulseaudio:hover,
+#clock:hover, #custom-power:hover {
+  background-color: #333333;
 }
 
-#tray > .passive {
-  -gtk-icon-effect: dim;
+#custom-power {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+tooltip {
+  background-color: #1a1a1a;
+  border: 1px solid #2e2e2e;
+  color: #d9d9d9;
+}
+
+tooltip label {
+  color: #d9d9d9;
 }
